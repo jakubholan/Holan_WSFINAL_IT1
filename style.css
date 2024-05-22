@@ -1,0 +1,193 @@
+*{
+  text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8e8e8e;
+    min-width: 160px;
+    z-index: 0;
+    right:10px
+}
+  
+  .dropdown-content a {
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+  }
+  
+  .menu:hover .dropdown-content {
+    display: block;
+  }
+
+.menu{
+float: right;
+right: 0;
+}
+
+.logo{
+    height: 10px;
+    width: 30px;
+}
+
+.nobutton{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    position: relative;
+}
+
+.underline{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 50px;
+    background: orange;
+    padding: 3px;
+}
+.title{
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;  
+}
+
+.block {
+  margin: 5px; 
+ 
+}
+
+.block1 {
+  border: solid #2c2c2c;
+  margin: 10px; 
+  padding: 40px;
+  text-align: center;
+  color: black;
+}
+
+.block1 img {
+  display: block;
+  margin: 0 auto; 
+  height: 200px;
+  width: 250px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.price {
+  color: #ff9800;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.price {
+  color: #ff9800;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+h4 {
+  background-color: #ff9800;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h6 { 
+  color: #ff9800;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h12 {
+  color: red;
+}
